@@ -14,6 +14,6 @@
 ################################################################################################
 
 string1 = 'Rodrigo'
-string2 = 'Python'
+string2 = 'Barros'
 
 print(f'o nome ({string1}) possui {len(string1)} caracteres e o nome ({string2}) possui {len(string2)} caracteres')
