@@ -21,3 +21,16 @@ escreva " Seu nome é muito grande ".
 
 # 1 
 
+number = int(input('Digite um número inteiro: '))
+
+if number%2 :
+    print("Ímpar")
+else:
+    print("Par")
+    
+
+
+
+# 2 
+
+
