@@ -33,4 +33,13 @@ else:
 
 # 2 
 
+nome = input('Qual seu nome? ')
+horario = input('Que horas são? ')
+horario = int(horario)
 
+if horario >= 0 and horario <= 11:
+    print('Boa tarde 0-11')
+elif horario >= 12 and horario <= 17:
+    print('Boa tarde 12-17')
+elif horario >= 18 and horario <= 23:
+    print('Boa noite 18-23')
