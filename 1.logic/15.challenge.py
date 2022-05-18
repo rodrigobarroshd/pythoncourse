@@ -43,3 +43,19 @@ elif horario >= 12 and horario <= 17:
     print('Boa tarde 12-17')
 elif horario >= 18 and horario <= 23:
     print('Boa noite 18-23')
+
+
+
+
+# 3 
+
+
+user = input('Digite seu usuário: ')
+len(user) 
+
+if len(user) <= 2:
+    print('Seu nome é muito curto')
+elif len(user) >= 4 and len(user) <= 15:
+    print('Seu nome foi aceito')
+elif len(user) > 15:
+    print("Seu nome é muito grande")
