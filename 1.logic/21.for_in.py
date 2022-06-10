@@ -9,7 +9,6 @@
 # for n in range(0, 20, 3):  # Vai do 0 ao 20 pulando de 3 em 3...
 #     print(n)
     
-
 ##################################################
 
 texto = 'Python'
@@ -17,10 +16,10 @@ nova_string = ''
 
 for letra in texto:
     if letra == 't':
-        nova_string = nova_string + letra.upper()
+        nova_string = nova_string + letra.upper()  # Se nao quiser que apareça a letra "t" = continue
     elif letra == 'h':
         nova_string += letra.upper()
-        break
+        
     else:
         nova_string += letra
         
