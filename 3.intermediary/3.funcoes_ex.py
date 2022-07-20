@@ -2,20 +2,26 @@
 
 
 
-def saudacao(msg='olá', nome='usuario'):
-    nome = nome.replace('e', '3')
-    msg = msg.replace('e', '3')
-    return f'{msg} {nome}'
+# def saudacao(msg='olá', nome='usuario'):
+#     nome = nome.replace('e', '3')
+#     msg = msg.replace('e', '3')
+#     return f'{msg} {nome}'
     
 
-variavel = saudacao()
-print(variavel)
+# variavel = saudacao()
+# print(variavel)
 
 
 
 # 2 - Crie uma função que recebe 3 números como parâmetros e exiba a soma entre eles.
 
+def soma(n1, n2, n3):
+    return n1 + n2 + n3
 
+somar = soma(8, 2, 14)
+
+if somar:
+    print(somar)
 
 
 
